@@ -15,7 +15,7 @@
 			die("Unable to select database");
 		}
 
-	//Create query
+	//Create the query
 	$qry = 'SELECT * FROM account WHERE USER_ID = \''.$_SESSION['USER_ID'].'\'';
 	echo'<html>
 	<head>
